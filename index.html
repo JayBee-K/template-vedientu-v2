@@ -1,44 +1,776 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport"
-		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
-	<title>Trang chủ - Vedientu</title>
-	<meta name="description" content="Trang chủ - Vedientu">
-	<meta name="author" content="">
+    <title>Trang chủ - Vedientu</title>
+    <meta name="description" content="Trang chủ - Vedientu">
+    <meta name="author" content="">
 
-	<meta property="og:title" content="Trang chủ - Vedientu">
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="">
-	<meta property="og:description" content="Trang chủ - Vedientu">
-	<meta property="og:image" content="">
+    <meta property="og:title" content="Trang chủ - Vedientu">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:description" content="Trang chủ - Vedientu">
+    <meta property="og:image" content="">
 
-	<link rel="icon" href="/assets/images/favicon.png">
-	<link rel="apple-touch-icon" href="/assets/images/favicon.png">
-
-	<style>
+    <link rel="icon" href="/assets/images/favicon.png">
+    <link rel="apple-touch-icon" href="/assets/images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+    <style>
         :root {
-            --primary-color: #013088;
-            --primary-hover: #012467;
+            --primary-color: #012467;
+            --primary-hover: #013088;
         }
-	</style>
-	<link rel="stylesheet" href="./assets/plugins/bootstrap/bootstrap.min.css">
-	<link rel="stylesheet" href="./assets/plugins/swiper/swiper-bundle.min.css">
-	<link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.min.css">
-	<link rel="stylesheet" href="./assets/css/base.css">
-	<link rel="stylesheet" href="./assets/css/style.css">
+    </style>
+    <link rel="stylesheet" href="./assets/plugins/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/plugins/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-
+<header id="header" class="header"></header>
+<div class="main">
+    <div class="section-benefit">
+        <div class="container d-flex justify-content-between">
+            <div class="benefit-item">
+                <div class="benefit-item_icon">
+                    <img src="./assets/images/benefit/plane.svg" alt="">
+                </div>
+                <div class="benefit-item_content">
+                    <div class="benefit-item_title">
+                        Chọn chuyến bay phù hợp nhất
+                    </div>
+                    <div class="benefit-item_desc">
+                        Dễ dàng so sánh giá giữa các hãng hàng không
+                    </div>
+                </div>
+            </div>
+            <div class="benefit-item">
+                <div class="benefit-item_icon">
+                    <img src="./assets/images/benefit/travel_ticket.svg" alt="">
+                </div>
+                <div class="benefit-item_content">
+                    <div class="benefit-item_title">
+                        Đặt vé nhanh chóng, dễ dàng
+                    </div>
+                    <div class="benefit-item_desc">
+                        Mua vé máy bay dễ dàng, xuất vé tức thời
+                    </div>
+                </div>
+            </div>
+            <div class="benefit-item">
+                <div class="benefit-item_icon">
+                    <img src="./assets/images/benefit/give-money.svg" alt="">
+                </div>
+                <div class="benefit-item_content">
+                    <div class="benefit-item_title">
+                        Thanh toán an toàn
+                    </div>
+                    <div class="benefit-item_desc">
+                        Nhiều hình thức thanh toán linh hoạt
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-flights section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading">
+                        <div class="title">
+                            Giá vé tốt nhất hiện tại
+                        </div>
+                        <div class="desc">
+                            Giá tốt hôm nay chớ để ngày mai
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="row row-col-10">
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <a href="#" class="card-flight card">
+                                <div class="card-header">
+                                    <div class="card-group">
+                                        <div class="card-group_item">
+                                            <div class="card-title">
+                                                Hồ Chí Minh
+                                            </div>
+                                            <div class="card-text">
+                                                06.09
+                                            </div>
+                                        </div>
+                                        <div class="card-group_item">
+                                            <div class="card-icon">
+                                                <i class="far fa-exchange-alt"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-group_item">
+                                            <div class="card-title">
+                                                Đà Nẵng
+                                            </div>
+                                            <div class="card-text">
+                                                08.09
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-price">
+                                        <div class="current">1.380.920 <small>VND</small></div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-logo">
+                                        <img src="./assets/images/logo/VietnamAirlines.png" alt="">
+                                    </div>
+                                    <div class="card-button">
+                                        Xem
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <a href="#" class="card-flight card">
+                                <div class="card-header">
+                                    <div class="card-group">
+                                        <div class="card-group_item">
+                                            <div class="card-title">
+                                                Hồ Chí Minh
+                                            </div>
+                                            <div class="card-text">
+                                                06.09
+                                            </div>
+                                        </div>
+                                        <div class="card-group_item">
+                                            <div class="card-icon">
+                                                <i class="far fa-exchange-alt"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-group_item">
+                                            <div class="card-title">
+                                                Đà Nẵng
+                                            </div>
+                                            <div class="card-text">
+                                                08.09
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-price">
+                                        <div class="current">1.380.920 <small>VND</small></div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-logo">
+                                        <img src="./assets/images/logo/VietnamAirlines.png" alt="">
+                                    </div>
+                                    <div class="card-button">
+                                        Xem
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <a href="#" class="card-flight card">
+                                <div class="card-header">
+                                    <div class="card-group">
+                                        <div class="card-group_item">
+                                            <div class="card-title">
+                                                Hồ Chí Minh
+                                            </div>
+                                            <div class="card-text">
+                                                06.09
+                                            </div>
+                                        </div>
+                                        <div class="card-group_item">
+                                            <div class="card-icon">
+                                                <i class="far fa-exchange-alt"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-group_item">
+                                            <div class="card-title">
+                                                Đà Nẵng
+                                            </div>
+                                            <div class="card-text">
+                                                08.09
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-price">
+                                        <div class="current">1.380.920 <small>VND</small></div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-logo">
+                                        <img src="./assets/images/logo/VietnamAirlines.png" alt="">
+                                    </div>
+                                    <div class="card-button">
+                                        Xem
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <a href="#" class="card-flight card">
+                                <div class="card-header">
+                                    <div class="card-group">
+                                        <div class="card-group_item">
+                                            <div class="card-title">
+                                                Hồ Chí Minh
+                                            </div>
+                                            <div class="card-text">
+                                                06.09
+                                            </div>
+                                        </div>
+                                        <div class="card-group_item">
+                                            <div class="card-icon">
+                                                <i class="far fa-exchange-alt"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-group_item">
+                                            <div class="card-title">
+                                                Phuket Province
+                                            </div>
+                                            <div class="card-text">
+                                                08.09
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-price">
+                                        <div class="current">1.380.920 <small>VND</small></div>
+                                        <div class="old">1.780.920</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-logo">
+                                        <img src="./assets/images/logo/VietJetAir.png" alt="">
+                                    </div>
+                                    <div class="card-button">
+                                        Xem
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <a href="#" class="card-flight card">
+                                <div class="card-header">
+                                    <div class="card-group">
+                                        <div class="card-group_item">
+                                            <div class="card-title">
+                                                Hồ Chí Minh
+                                            </div>
+                                            <div class="card-text">
+                                                06.09
+                                            </div>
+                                        </div>
+                                        <div class="card-group_item">
+                                            <div class="card-icon">
+                                                <i class="far fa-exchange-alt"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-group_item">
+                                            <div class="card-title">
+                                                Đà Nẵng
+                                            </div>
+                                            <div class="card-text">
+                                                08.09
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-price">
+                                        <div class="current">1.380.920 <small>VND</small></div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-logo">
+                                        <img src="./assets/images/logo/VietnamAirlines.png" alt="">
+                                    </div>
+                                    <div class="card-button">
+                                        Xem
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <a href="#" class="card-flight card">
+                                <div class="card-header">
+                                    <div class="card-group">
+                                        <div class="card-group_item">
+                                            <div class="card-title">
+                                                Hồ Chí Minh
+                                            </div>
+                                            <div class="card-text">
+                                                06.09
+                                            </div>
+                                        </div>
+                                        <div class="card-group_item">
+                                            <div class="card-icon">
+                                                <i class="far fa-exchange-alt"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-group_item">
+                                            <div class="card-title">
+                                                Đà Nẵng
+                                            </div>
+                                            <div class="card-text">
+                                                08.09
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-price">
+                                        <div class="current">1.380.920 <small>VND</small></div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-logo">
+                                        <img src="./assets/images/logo/VietnamAirlines.png" alt="">
+                                    </div>
+                                    <div class="card-button">
+                                        Xem
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <a href="#" class="card-flight card">
+                                <div class="card-header">
+                                    <div class="card-group">
+                                        <div class="card-group_item">
+                                            <div class="card-title">
+                                                Hồ Chí Minh
+                                            </div>
+                                            <div class="card-text">
+                                                06.09
+                                            </div>
+                                        </div>
+                                        <div class="card-group_item">
+                                            <div class="card-icon">
+                                                <i class="far fa-exchange-alt"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-group_item">
+                                            <div class="card-title">
+                                                Đà Nẵng
+                                            </div>
+                                            <div class="card-text">
+                                                08.09
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-price">
+                                        <div class="current">1.380.920 <small>VND</small></div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-logo">
+                                        <img src="./assets/images/logo/VietnamAirlines.png" alt="">
+                                    </div>
+                                    <div class="card-button">
+                                        Xem
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <a href="#" class="card-flight card">
+                                <div class="card-header">
+                                    <div class="card-group">
+                                        <div class="card-group_item">
+                                            <div class="card-title">
+                                                Hồ Chí Minh
+                                            </div>
+                                            <div class="card-text">
+                                                06.09
+                                            </div>
+                                        </div>
+                                        <div class="card-group_item">
+                                            <div class="card-icon">
+                                                <i class="far fa-exchange-alt"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-group_item">
+                                            <div class="card-title">
+                                                Phuket Province
+                                            </div>
+                                            <div class="card-text">
+                                                08.09
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-price">
+                                        <div class="current">1.380.920 <small>VND</small></div>
+                                        <div class="old">1.780.920</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-logo">
+                                        <img src="./assets/images/logo/VietJetAir.png" alt="">
+                                    </div>
+                                    <div class="card-button">
+                                        Xem
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <a href="#" class="card-flight card">
+                                <div class="card-header">
+                                    <div class="card-group">
+                                        <div class="card-group_item">
+                                            <div class="card-title">
+                                                Hồ Chí Minh
+                                            </div>
+                                            <div class="card-text">
+                                                06.09
+                                            </div>
+                                        </div>
+                                        <div class="card-group_item">
+                                            <div class="card-icon">
+                                                <i class="far fa-exchange-alt"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-group_item">
+                                            <div class="card-title">
+                                                Đà Nẵng
+                                            </div>
+                                            <div class="card-text">
+                                                08.09
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-price">
+                                        <div class="current">1.380.920 <small>VND</small></div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-logo">
+                                        <img src="./assets/images/logo/VietnamAirlines.png" alt="">
+                                    </div>
+                                    <div class="card-button">
+                                        Xem
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <a href="#" class="card-flight card">
+                                <div class="card-header">
+                                    <div class="card-group">
+                                        <div class="card-group_item">
+                                            <div class="card-title">
+                                                Hồ Chí Minh
+                                            </div>
+                                            <div class="card-text">
+                                                06.09
+                                            </div>
+                                        </div>
+                                        <div class="card-group_item">
+                                            <div class="card-icon">
+                                                <i class="far fa-exchange-alt"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-group_item">
+                                            <div class="card-title">
+                                                Đà Nẵng
+                                            </div>
+                                            <div class="card-text">
+                                                08.09
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-price">
+                                        <div class="current">1.380.920 <small>VND</small></div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-logo">
+                                        <img src="./assets/images/logo/VietnamAirlines.png" alt="">
+                                    </div>
+                                    <div class="card-button">
+                                        Xem
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <a href="#" class="card-flight card">
+                                <div class="card-header">
+                                    <div class="card-group">
+                                        <div class="card-group_item">
+                                            <div class="card-title">
+                                                Hồ Chí Minh
+                                            </div>
+                                            <div class="card-text">
+                                                06.09
+                                            </div>
+                                        </div>
+                                        <div class="card-group_item">
+                                            <div class="card-icon">
+                                                <i class="far fa-exchange-alt"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-group_item">
+                                            <div class="card-title">
+                                                Đà Nẵng
+                                            </div>
+                                            <div class="card-text">
+                                                08.09
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-price">
+                                        <div class="current">1.380.920 <small>VND</small></div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-logo">
+                                        <img src="./assets/images/logo/VietnamAirlines.png" alt="">
+                                    </div>
+                                    <div class="card-button">
+                                        Xem
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <a href="#" class="card-flight card">
+                                <div class="card-header">
+                                    <div class="card-group">
+                                        <div class="card-group_item">
+                                            <div class="card-title">
+                                                Hồ Chí Minh
+                                            </div>
+                                            <div class="card-text">
+                                                06.09
+                                            </div>
+                                        </div>
+                                        <div class="card-group_item">
+                                            <div class="card-icon">
+                                                <i class="far fa-exchange-alt"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-group_item">
+                                            <div class="card-title">
+                                                Phuket Province
+                                            </div>
+                                            <div class="card-text">
+                                                08.09
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-price">
+                                        <div class="current">1.380.920 <small>VND</small></div>
+                                        <div class="old">1.780.920</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-logo">
+                                        <img src="./assets/images/logo/VietJetAir.png" alt="">
+                                    </div>
+                                    <div class="card-button">
+                                        Xem
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-destination section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading">
+                        <div class="title">
+                            Điểm đến yêu thích
+                        </div>
+                        <div class="desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="row row-col-10">
+                        <div class="col-lg-3 col-sm-6 col-12">
+                            <div class="card-destination card">
+                                <div class="card-header">
+                                    <a href="">
+                                        <img class="card-img-top image-cover transition-default"
+                                             src="./assets/images/destination/dg_211101_Ha-noi.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <a href="">
+                                            Hà Nội
+                                        </a>
+                                    </div>
+                                    <div class="card-text">
+                                        Đã có 50,735 lượt khách
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12">
+                            <div class="card-destination card">
+                                <div class="card-header">
+                                    <a href="">
+                                        <img class="card-img-top image-cover transition-default"
+                                             src="./assets/images/destination/dg_211101_Ha-noi.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <a href="">
+                                            Thành phố Hồ Chí Minh
+                                        </a>
+                                    </div>
+                                    <div class="card-text">
+                                        Đã có 50,735 lượt khách
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12">
+                            <div class="card-destination card">
+                                <div class="card-header">
+                                    <a href="">
+                                        <img class="card-img-top image-cover transition-default"
+                                             src="./assets/images/destination/dg_211101_Ha-noi.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <a href="">
+                                            Hà Nội
+                                        </a>
+                                    </div>
+                                    <div class="card-text">
+                                        Đã có 50,735 lượt khách
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12">
+                            <div class="card-destination card">
+                                <div class="card-header">
+                                    <a href="">
+                                        <img class="card-img-top image-cover transition-default"
+                                             src="./assets/images/destination/dg_211101_Ha-noi.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <a href="">
+                                            Thành phố Hồ Chí Minh
+                                        </a>
+                                    </div>
+                                    <div class="card-text">
+                                        Đã có 50,735 lượt khách
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12">
+                            <div class="card-destination card">
+                                <div class="card-header">
+                                    <a href="">
+                                        <img class="card-img-top image-cover transition-default"
+                                             src="./assets/images/destination/dg_211101_Ha-noi.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <a href="">
+                                            Hà Nội
+                                        </a>
+                                    </div>
+                                    <div class="card-text">
+                                        Đã có 50,735 lượt khách
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12">
+                            <div class="card-destination card">
+                                <div class="card-header">
+                                    <a href="">
+                                        <img class="card-img-top image-cover transition-default"
+                                             src="./assets/images/destination/dg_211101_Ha-noi.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <a href="">
+                                            Thành phố Hồ Chí Minh
+                                        </a>
+                                    </div>
+                                    <div class="card-text">
+                                        Đã có 50,735 lượt khách
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12">
+                            <div class="card-destination card">
+                                <div class="card-header">
+                                    <a href="">
+                                        <img class="card-img-top image-cover transition-default"
+                                             src="./assets/images/destination/dg_211101_Ha-noi.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <a href="">
+                                            Hà Nội
+                                        </a>
+                                    </div>
+                                    <div class="card-text">
+                                        Đã có 50,735 lượt khách
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12">
+                            <div class="card-destination card">
+                                <div class="card-header">
+                                    <a href="">
+                                        <img class="card-img-top image-cover transition-default"
+                                             src="./assets/images/destination/dg_211101_Ha-noi.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <a href="">
+                                            Thành phố Hồ Chí Minh
+                                        </a>
+                                    </div>
+                                    <div class="card-text">
+                                        Đã có 50,735 lượt khách
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer id="footer" class="footer"></footer>
 
 <script type=" text/javascript" src="./assets/plugins/jquery.min.js"></script>
 <script type="text/javascript"
-		src="./assets/plugins/bootstrap/bootstrap.bundle.min.js"></script>
+        src="./assets/plugins/bootstrap/bootstrap.bundle.min.js"></script>
 <script type="text/javascript"
-		src="./assets/plugins/swiper/swiper-bundle.min.js"></script>
+        src="./assets/plugins/swiper/swiper-bundle.min.js"></script>
 <script type="text/javascript" src="./assets/js/app.js"></script>
 </body>
 </html>
