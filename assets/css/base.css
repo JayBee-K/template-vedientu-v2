@@ -1,6 +1,7 @@
 :root {
     --gray-900: #111827;
     --gray-800: #27272A;
+    --gray-700: #39393b;
     --gray-600: #52525B;
     --gray-500: #71717A;
     --gray-400: #A1A1AA;
@@ -15,8 +16,8 @@
     --fw700: 700;
     --fw900: 900;
     --red-color: #EF4444;
-    --secondary-color: #F79321;
-    --secondary-hover: #e87f09;
+    --star-color: #fdc432;
+    --light-color: #F8FAFC;
     --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
     --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
     --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
@@ -27,7 +28,7 @@
 body {
     position: relative;
     width: 100%;
-    background-color: #F8FAFC;
+    background-color: var(--light-color);
     color: var(--gray-800);
     font-family: var(--font-theme);
     font-size: 14px;
