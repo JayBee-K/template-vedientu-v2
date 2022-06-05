@@ -218,3 +218,7 @@ textarea:focus {
         max-width: 1170px;
     }
 }
+
+.container-fluid {
+    max-width: 1400px;
+}
