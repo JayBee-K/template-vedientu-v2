@@ -702,6 +702,7 @@
 .form-field .form-field_item .form-field_content .form-field_text {
     line-height: 28px;
     height: 24px;
+    text-transform: capitalize;
 }
 
 .form-field .form-field_item .form-field_content .form-field_label.form-field_label__highlight {
@@ -2135,4 +2136,44 @@
         flex: 0 0 20%;
         max-width: 20%;
     }
+}
+
+.flatpickr-current-month {
+    font-size: 14px;
+}
+
+.flatpickr-current-month .flatpickr-monthDropdown-months {
+    font-size: 1em;
+    color: var(--gray-400);
+}
+
+.numInputWrapper span {
+    display: none;
+}
+
+.flatpickr-current-month input.cur-year {
+    text-align: right;
+    font-size: 1em;
+    color: var(--gray-400);
+}
+
+.flatpickr-months .flatpickr-prev-month, .flatpickr-months .flatpickr-next-month {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+
+.flatpickr-months .flatpickr-prev-month svg, .flatpickr-months .flatpickr-next-month svg {
+    width: 11px;
+    height: 11px;
+}
+
+.flatpickr-day.today {
+    border-color: transparent;
+}
+
+.flatpickr-day.selected {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
 }
