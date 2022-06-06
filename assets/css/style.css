@@ -616,13 +616,24 @@
     height: 60px;
 }
 
-.form-field.form-field_multi .form-field_item:first-child {
+.form-field.form-field_multi .form-field_item:first-of-type {
     border-radius: 4px 0 0 4px;
 }
 
-.form-field.form-field_multi .form-field_item:last-child {
+.form-field.form-field_multi .form-field_item:last-of-type {
     border-radius: 0 4px 4px 0;
     border-left: 1px solid rgba(0, 0, 0, .15);
+}
+
+.form-field.form-field_multi .flatpickr-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
 }
 
 .form-field .form-field_item.form-field_button {
