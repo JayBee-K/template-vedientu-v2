@@ -15,7 +15,7 @@
 		$(window).scroll(function (e) {
 			if ($(document).scrollTop() > $('#header').innerHeight()) {
 				$('#header').addClass('is-scroll').removeClass('no-scroll');
-			} else if($(document).scrollTop() == 0) {
+			} else if ($(document).scrollTop() == 0) {
 				$('#header').removeClass('is-scroll').addClass('no-scroll');
 			}
 		});
@@ -254,5 +254,6 @@
 			}
 		})
 
+		$('[data-toggle="tooltip"]').tooltip()
 	});
 })(jQuery);
