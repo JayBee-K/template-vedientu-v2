@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+	<title>Trang chủ - Vedientu</title>
+	<meta name="description" content="Trang chủ - Vedientu">
+	<meta name="author" content="">
+
+	<meta property="og:title" content="Trang chủ - Vedientu">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="">
+	<meta property="og:description" content="Trang chủ - Vedientu">
+	<meta property="og:image" content="">
+
+	<link rel="icon" href="/assets/images/favicon.png">
+	<link rel="apple-touch-icon" href="/assets/images/favicon.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
+		  rel="stylesheet">
+	<style>
+        :root {
+            --primary-color: #012467;
+            --primary-hover: #013088;
+            --secondary-color: #F79321;
+            --secondary-hover: #e87f09;
+        }
+	</style>
+	<link rel="stylesheet" href="./assets/plugins/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/plugins/bootstrap-flatpickr/bootstrap-flatpickr.min.css">
+	<link rel="stylesheet" href="./assets/plugins/select2/select2.min.css">
+	<link rel="stylesheet" href="./assets/plugins/swiper/swiper-bundle.min.css">
+	<link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="./assets/css/base.css">
+	<link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+<header id="header" class="header">
+	<div class="header-top">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12">
+					<div class="header-navbar">
+						<div class="header-navbar_bar">
+							<div class="header-navbar_logo">
+								<a href="">
+									<img src="./assets/images/logo.svg" class="img-fluid" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="header-navbar_nav">
+							<ul class="list-unstyled mb-0">
+								<li>
+									<a href="">
+										Khách sạn
+									</a>
+								</li>
+								<li class="active">
+									<a href="">
+										Tours
+									</a>
+								</li>
+								<li>
+									<a href="">
+										Vé máy bay
+									</a>
+								</li>
+								<li>
+									<a href="">
+										Ăn uống
+									</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)">
+										<i class="fas fa-ellipsis-h"></i>
+									</a>
+									<ul class="list-unstyled mb-0">
+										<li>
+											<a href="">
+												Ưu đãi đặc biệt
+											</a>
+										</li>
+										<li>
+											<a href="">
+												Giới thiệu
+											</a>
+										</li>
+										<li>
+											<a href="">
+												Hỏi đáp
+											</a>
+										</li>
+										<li>
+											<a href="">
+												Hỗ trợ
+											</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="header-navbar_actions">
+							<div class="header-navbar_user">
+								<a href="javascript:;">
+									<span>
+										<i class="fas fa-user-alt"></i>
+										Tài khoản
+									</span>
+									<i class="fas fa-angle-down"></i>
+								</a>
+								<ul class="list-unstyled mb-0">
+									<li class="header-navbar_user__nologin">
+										<div class="button">
+											<a href="">
+												Đăng nhập
+											</a>
+										</div>
+										<div class="text">
+											Chưa có tài khoản?
+											<a href="">Đăng ký ngay</a>
+										</div>
+									</li>
+									<!--
+                                    <li>
+                                        <a href="">
+                                            Quản lý tài khoản
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            Tour đã đặt
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            Đổi mật khẩu
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            Đăng xuất
+                                        </a>
+                                    </li>
+                                    -->
+								</ul>
+							</div>
+							<div class="header-navbar_contact">
+								<div class="header-navbar_contact__phone">
+									<a href="tel:19001870">
+										<i class="fas fa-phone-alt"></i>
+										1900 1870
+									</a>
+								</div>
+								<div class="header-navbar_contact__dropdown">
+									<div class="text">
+										<span class="info">
+											<i class="far fa-clock"></i>
+											&nbsp;7h30&nbsp;
+											<i class="far fa-long-arrow-right"></i>
+											&nbsp;21h&nbsp;
+											<i class="far fa-map-marker-alt"></i>
+											&nbsp;iVIVU HCM
+										</span>
+										<i class="fas fa-angle-down"></i>
+									</div>
+									<ul class="list-unstyled mb-0">
+										<li>
+											<a href="">
+												<span>Hồ Chí Minh</span>1900 1870
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<span>Hà Nội</span>1900 1870
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<span>Cần Thơ</span>1900 1870
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="header-bottom">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12">
+					<form action="">
+						<div class="form-fields">
+							<div class="form-field form-field-50">
+								<div class="form-field_item">
+									<div class="form-field_icon">
+										<i class="fal fa-search"></i>
+									</div>
+									<div class="form-field_content">
+										<input type="text" class="form-field_control"
+											   placeholder="Nhập điểm du lịch hoặc tên khách sạn">
+									</div>
+								</div>
+							</div>
+							<div class="form-field form-field-50 form-field_multi">
+								<div data-type="header_checkin"
+									 class="form-field_item position-relative trigger-flatpickr"
+									 role="button">
+									<div class="form-field_icon">
+										<i class="fal fa-calendar-alt"></i>
+									</div>
+									<div class="form-field_content">
+										<label class="form-field_label form-field_label__highlight"
+											   for="" role="button">
+											<span class="return-day">06</span> tháng <span
+												class="return-month">06</span>
+										</label>
+										<div class="form-field_text return-text">
+											Thứ Hai
+										</div>
+									</div>
+									<input type="hidden" name=""
+										   placeholder="Chọn ngày khởi hành"
+										   class="input-checkin_header flatpickr-input">
+								</div>
+								<div data-type="header_checkout"
+									 class="form-field_item position-relative trigger-flatpickr"
+									 role="button">
+									<div class="form-field_icon">
+										<i class="fal fa-calendar-alt"></i>
+									</div>
+									<div class="form-field_content">
+										<label class="form-field_label form-field_label__highlight"
+											   for="" role="button">
+											<span class="return-day">12</span> tháng <span
+												class="return-month">06</span>
+										</label>
+										<div class="form-field_text return-text">
+											Chủ Nhật
+										</div>
+									</div>
+									<input type="hidden" name=""
+										   placeholder="Chọn ngày trở về"
+										   class="input-checkout_header flatpickr-input">
+								</div>
+							</div>
+							<div class="form-field form-field-35">
+								<div class="form-field_item">
+									<div class="form-field_icon">
+										<i class="fal fa-users"></i>
+									</div>
+									<div class="form-field_content">
+										<label class="form-field_label form-field_label__highlight"
+											   for="">
+											<span class="count-passengers">1</span>&nbsp;khách
+											<input type="hidden" class="quantity-pasenger"
+												   value="1">
+										</label>
+										<div class="form-field_dropdown">
+											<span class="count-adult">1</span>&nbsp;người lớn,
+											<span class="count-children">0</span>&nbsp;trẻ em,
+											<span class="count-baby">0</span>&nbsp;em bé
+										</div>
+										<div class="form-field_dropdown__hidden">
+											<div class="dropdown-hidden_item">
+												<div class="dropdown-hidden_item__text">
+													<div class="dropdown-hidden_item__count count-adult">
+														1
+													</div>
+													<div class="dropdown-hidden_item__content">
+														<div class="dropdown-hidden_item__title">
+															Người lớn
+														</div>
+														<div class="dropdown-hidden_item__desc">
+															(Từ 12 tuổi)
+														</div>
+													</div>
+												</div>
+												<div class="dropdown-hidden_item__quantity">
+													<button class="button-quantity"
+															type="button"
+															data-people="adult"
+															data-type="0">
+														<i class="fas fa-minus"></i>
+													</button>
+													<button class="button-quantity"
+															type="button"
+															data-people="adult"
+															data-type="1">
+														<i class="fas fa-plus"></i>
+													</button>
+												</div>
+											</div>
+											<div class="dropdown-hidden_item">
+												<div class="dropdown-hidden_item__text">
+													<div class="dropdown-hidden_item__count count-children">
+														0
+													</div>
+													<div class="dropdown-hidden_item__content">
+														<div class="dropdown-hidden_item__title">
+															Trẻ em
+														</div>
+														<div class="dropdown-hidden_item__desc">
+															(Từ 02 - 12 tuổi)
+														</div>
+													</div>
+												</div>
+												<div class="dropdown-hidden_item__quantity">
+													<button class="button-quantity"
+															type="button"
+															data-people="children"
+															data-type="0">
+														<i class="fas fa-minus"></i>
+													</button>
+													<button class="button-quantity"
+															type="button"
+															data-people="children"
+															data-type="1">
+														<i class="fas fa-plus"></i>
+													</button>
+												</div>
+											</div>
+											<div class="dropdown-hidden_item">
+												<div class="dropdown-hidden_item__text">
+													<div class="dropdown-hidden_item__count count-baby">
+														0
+													</div>
+													<div class="dropdown-hidden_item__content">
+														<div class="dropdown-hidden_item__title">
+															Em bé
+														</div>
+														<div class="dropdown-hidden_item__desc">
+															(Dưới 02 tuổi)
+														</div>
+													</div>
+												</div>
+												<div class="dropdown-hidden_item__quantity">
+													<button class="button-quantity"
+															type="button"
+															data-people="baby"
+															data-type="0">
+														<i class="fas fa-minus"></i>
+													</button>
+													<button class="button-quantity"
+															type="button"
+															data-people="baby"
+															data-type="1">
+														<i class="fas fa-plus"></i>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="form-field form-field-15">
+								<div class="form-field_item form-field_button">
+									<button>
+										Tìm
+									</button>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<div class="main">
+	<div class="section-breadcrumb">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12">
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item">
+							<a href="#"><i class="fas fa-home-alt"></i>Trang chủ</a>
+						</li>
+						<li class="breadcrumb-item active">Chi tiết tour</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section-detail">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12">
+					<div class="detail-header">
+						<div class="row">
+							<div class="col-lg-8 col-md-6">
+								<div class="detail-title">
+									Sapa - Bản Cát Cát - Fansipan - Ninh Bình - Tràng An - Bái Đính - Tuyệt Tịnh Cốc -
+									Hạ Long - Đảo
+									Titốp - Yên Tử - Hà Nội
+								</div>
+								<div class="detail-code">
+									<i class="fal fa-ticket-alt"></i>NDSGN1862-003-150622VU-V
+								</div>
+								<div class="detail-rate">
+									<div class="badge">
+										9
+									</div>
+									<div class="text">
+										Tuyệt vời
+										<span>
+											358 quan tâm
+										</span>
+									</div>
+									<div class="favourite">
+										<i class="fas fa-fear"></i>
+										126
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<footer id="footer" class="footer">
+	<div class="footer-top">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-2 col-sm-6 col-md-3 footer-item">
+					<div class="footer-heading">Về iVIVU.com</div>
+					<div class="footer-list">
+						<ul class="list-unstyled mb-0">
+							<li>
+								<a href="">Chúng tôi</a>
+							</li>
+							<li>
+								<a href="">Điều kiện & Điều khoản</a>
+							</li>
+							<li>
+								<a href="">Yêu cầu bồi thường Cathay</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-2 col-sm-6 col-md-3 footer-item">
+					<div class="footer-heading">Về iVIVU.com</div>
+					<div class="footer-list">
+						<ul class="list-unstyled mb-0">
+							<li>
+								<a href="">Chúng tôi</a>
+							</li>
+							<li>
+								<a href="">Điều kiện & Điều khoản</a>
+							</li>
+							<li>
+								<a href="">Yêu cầu bồi thường Cathay</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-2 col-sm-6 col-md-3 footer-item">
+					<div class="footer-heading">Về iVIVU.com</div>
+					<div class="footer-list">
+						<ul class="list-unstyled mb-0">
+							<li>
+								<a href="">Chúng tôi</a>
+							</li>
+							<li>
+								<a href="">Điều kiện & Điều khoản</a>
+							</li>
+							<li>
+								<a href="">Yêu cầu bồi thường Cathay</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6 col-md-3 footer-item">
+					<div class="footer-heading">Về iVIVU.com</div>
+					<div class="footer-image">
+						<a href="">
+							<img src="./assets/images/bocongthuong.png" class="img-fluid" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6 col-md-12 footer-item">
+					<div class="footer-images">
+						<a href="">
+							<img src="./assets/images/vic.png" class="img-fluid" alt="">
+						</a>
+						<a href="">
+							<img src="./assets/images/vic.png" class="img-fluid" alt="">
+						</a>
+					</div>
+					<div class="footer-desc">
+						Một thành viên của <b>Thiên Minh Group</b>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-bottom">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-8 col-md-9 col-12 footer-item">
+					<div class="footer-best">
+						<div class="footer-heading">
+							<a href="">
+								<img src="./assets/images/wta-winner-shield-2021.png" alt="">
+								iVIVU.com © 2021 - Đại lý Du lịch Trực tuyến Hàng đầu Việt Nam
+								2021
+							</a>
+						</div>
+					</div>
+					<div class="footer-best">
+						<div class="footer-heading">
+							<a href="">
+								<img src="./assets/images/hraa-logo.png" alt="">
+								Best Company to Work for in Asia 2021
+							</a>
+						</div>
+					</div>
+					<div class="footer-text">
+						DKKD: 0312788481, Ngày cấp: 21/05/2014, Sở kế hoạch đầu tư thành phố Hồ Chí Minh
+					</div>
+					<div class="footer-text">
+						<i class="fas fa-map-marker-alt"></i>
+						<b>HCM:</b>
+						Lầu 2, Tòa nhà Anh Đăng, 215 Nam Kỳ Khởi Nghĩa, Phường 7, Quận 3, Tp. Hồ Chí Minh
+						(
+						<a href="">Xem bản đồ</a>
+						)
+					</div>
+					<div class="footer-text">
+						<i class="fas fa-map-marker-alt"></i>
+						<b>HN:</b>
+						Lầu 2, Tòa nhà Anh Đăng, 215 Nam Kỳ Khởi Nghĩa, Phường 7, Quận 3, Tp. Hồ Chí Minh
+						(
+						<a href="">Xem bản đồ</a>
+						)
+					</div>
+					<div class="footer-text">
+						<i class="fas fa-map-marker-alt"></i>
+						<b>Cần Thơ:</b>
+						Lầu 2, Tòa nhà Anh Đăng, 215 Nam Kỳ Khởi Nghĩa, Phường 7, Quận 3, Tp. Hồ Chí Minh
+						(
+						<a href="">Xem bản đồ</a>
+						)
+					</div>
+					<div class="footer-social">
+						<div class="footer-social_text">
+							Like để cập nhật cẩm nang du lịch
+							<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/"
+								 data-width="" data-layout="button_count" data-action="like" data-size="small"
+								 data-share="false"></div>
+							<a href="mailto:tc@ivivu.com">
+								<i class="fas fa-envelope"></i>
+								tc@ivivu.com
+							</a>
+						</div>
+						<div class="footer-social_list">
+							<ul>
+								<li class="facebook">
+									<a href="" target="_blank">
+										<i class="fab fa-facebook-f"></i>
+									</a>
+								</li>
+								<li class="zalo">
+									<a href="" target="_blank">
+										<img src="./assets/images/zalo.png" alt="">
+									</a>
+								</li>
+								<li class="instagram">
+									<a href="" target="_blank">
+										<i class="fab fa-instagram"></i>
+									</a>
+								</li>
+								<li class="tiktok">
+									<a href="" target="_blank">
+										<i class="fab fa-tiktok"></i>
+									</a>
+								</li>
+								<li class="youtube">
+									<a href="" target="_blank">
+										<i class="fab fa-youtube"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-3 col-12 footer-item">
+					<div class="footer-heading">
+						Bạn cần trợ giúp? Hãy gọi ngay
+					</div>
+					<div class="footer-contact">
+						<a href="tel:1900 1870">
+							<i class="fas fa-phone-alt"></i>
+							1900 1870
+						</a>
+						<div class="dropdown">
+							<button class="dropdown-toggle" type="button"
+									data-toggle="dropdown">
+								<i class="far fa-clock"></i>
+								&nbsp;7h30&nbsp;
+								<i class="far fa-long-arrow-right"></i>
+								&nbsp;21h&nbsp;
+								<i class="far fa-map-marker-alt"></i>
+								&nbsp;iVIVU HCM
+							</button>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#"><span>Hồ Chí Minh</span>1900 1870</a>
+								<a class="dropdown-item" href="#"><span>Hồ Chí Minh</span>1900 1870</a>
+								<a class="dropdown-item" href="#"><span>Hồ Chí Minh</span>1900 1870</a>
+							</div>
+						</div>
+					</div>
+					<div class="footer-support">
+						<a href="">
+							<span>
+								<i class="fab fa-facebook-messenger"></i>
+							</span>
+							Tư vấn với Olivia - chatbot của iVIVU
+						</a>
+					</div>
+					<div class="footer-heading">
+						Đặt phòng dễ dàng hơn qua ứng dụng iVIVU
+					</div>
+					<div class="footer-app">
+						<div class="footer-qr">
+							<img src="https://cdn1.ivivu.com/app-icon/iVIVUcode.png" alt="">
+						</div>
+						<div class="footer-apps">
+							<a href="">
+								<img src="https://cdn1.ivivu.com/app-icon/tai-appstore.png" alt="">
+							</a>
+							<a href="">
+								<img src="https://cdn1.ivivu.com/app-icon/tai-google-play.png" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<div class="modal fade modal-theme" id="popupChooseTime" tabindex="-1">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div class="modal-title">
+					CHỌN NGÀY KHỞI HÀNH
+				</div>
+				<button type="button" class="close" data-dismiss="modal">
+					<i class="fal fa-times"></i>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="choose-time_list">
+					<div class="choose-time_item">
+						<div class="title">
+							Indonesia: Combo 4N3Đ Vé máy bay khứ hồi + 3 đêm phòng Tiêu chuẩn khách sạn J4 Legian 4* +
+							Tặng đón tiễn sân bay
+						</div>
+						<div class="content">
+							<div class="time">
+								<span>11</span>
+								06-2022
+							</div>
+							<div class="price">
+								Giá: <span>11,490,000₫</span>
+							</div>
+							<a href="" class="button-theme button-theme_primary">
+								Đăng ký
+							</a>
+						</div>
+					</div>
+					<div class="choose-time_item">
+						<div class="title">
+							Indonesia: Combo 4N3Đ Vé máy bay khứ hồi + 3 đêm phòng Tiêu chuẩn khách sạn J4 Legian 4* +
+							Tặng đón tiễn sân bay
+						</div>
+						<div class="content">
+							<div class="time">
+								<span>11</span>
+								06-2022
+							</div>
+							<div class="price">
+								Giá: <span>11,490,000₫</span>
+							</div>
+							<a href="" class="button-theme button-theme_primary">
+								Đăng ký
+							</a>
+						</div>
+					</div>
+					<div class="choose-time_item">
+						<div class="title">
+							Indonesia: Combo 4N3Đ Vé máy bay khứ hồi + 3 đêm phòng Tiêu chuẩn khách sạn J4 Legian 4* +
+							Tặng đón tiễn sân bay
+						</div>
+						<div class="content">
+							<div class="time">
+								<span>11</span>
+								06-2022
+							</div>
+							<div class="price">
+								Giá: <span>11,490,000₫</span>
+							</div>
+							<a href="" class="button-theme button-theme_primary">
+								Đăng ký
+							</a>
+						</div>
+					</div>
+					<div class="choose-time_item">
+						<div class="title">
+							Indonesia: Combo 4N3Đ Vé máy bay khứ hồi + 3 đêm phòng Tiêu chuẩn khách sạn J4 Legian 4* +
+							Tặng đón tiễn sân bay
+						</div>
+						<div class="content">
+							<div class="time">
+								<span>11</span>
+								06-2022
+							</div>
+							<div class="price">
+								Giá: <span>11,490,000₫</span>
+							</div>
+							<a href="" class="button-theme button-theme_primary">
+								Đăng ký
+							</a>
+						</div>
+					</div>
+					<div class="choose-time_item">
+						<div class="title">
+							Indonesia: Combo 4N3Đ Vé máy bay khứ hồi + 3 đêm phòng Tiêu chuẩn khách sạn J4 Legian 4* +
+							Tặng đón tiễn sân bay
+						</div>
+						<div class="content">
+							<div class="time">
+								<span>11</span>
+								06-2022
+							</div>
+							<div class="price">
+								Giá: <span>11,490,000₫</span>
+							</div>
+							<a href="" class="button-theme button-theme_primary">
+								Đăng ký
+							</a>
+						</div>
+					</div>
+					<div class="choose-time_item">
+						<div class="title">
+							Indonesia: Combo 4N3Đ Vé máy bay khứ hồi + 3 đêm phòng Tiêu chuẩn khách sạn J4 Legian 4* +
+							Tặng đón tiễn sân bay
+						</div>
+						<div class="content">
+							<div class="time">
+								<span>11</span>
+								06-2022
+							</div>
+							<div class="price">
+								Giá: <span>11,490,000₫</span>
+							</div>
+							<a href="" class="button-theme button-theme_primary">
+								Đăng ký
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type=" text/javascript" src="./assets/plugins/jquery.min.js"></script>
+<script type="text/javascript"
+		src="./assets/plugins/bootstrap/bootstrap.bundle.min.js"></script>
+<script type="text/javascript"
+		src="./assets/plugins/moment/moment.min.js"></script>
+<script type="text/javascript"
+		src="./assets/plugins/moment/moment-with-locales.min.js"></script>
+<script type="text/javascript"
+		src="./assets/plugins/bootstrap-flatpickr/bootstrap-flatpickr.js"></script>
+<script type="text/javascript"
+		src="./assets/plugins/bootstrap-flatpickr/bootstrap-flatpickr-vn.js"></script>
+<script type="text/javascript"
+		src="./assets/plugins/select2/select2.min.js"></script>
+<script type="text/javascript"
+		src="./assets/plugins/swiper/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="./assets/js/app.js"></script>
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v14.0"
+		nonce="pMajEx3K"></script>
+</body>
+</html>
